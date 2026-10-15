@@ -1,0 +1,16 @@
+name: business
+description: Clear business reports with a cover and decimal headings
+font_body_cjk: Noto Serif CJK SC
+font_heading_cjk: Noto Sans CJK SC
+font_latin: Times New Roman
+body_size: 小四
+title_size: 二号
+heading_sizes: [小二, 三号, 四号, 小四, 小四, 小四]
+line_spacing: 1.35
+margin_top: 22
+margin_bottom: 22
+margin_left: 24
+margin_right: 24
+numbering: technical
+cover: true
+toc: true

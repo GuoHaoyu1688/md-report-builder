@@ -1,0 +1,97 @@
+[
+  {
+    "name": "build_report",
+    "title": null,
+    "description": "Build a local report without network access.\n\n        Side effects: atomically writes/replaces the output and records build history.\n        out is a directory; omit it for the configured data directory's reports folder.\n        ",
+    "inputSchema": {
+      "properties": {
+        "input_path": {
+          "title": "Input Path",
+          "type": "string"
+        },
+        "to": {
+          "default": "docx",
+          "title": "To",
+          "type": "string"
+        },
+        "template": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Template"
+        },
+        "out": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Out"
+        },
+        "strict": {
+          "default": false,
+          "title": "Strict",
+          "type": "boolean"
+        }
+      },
+      "required": [
+        "input_path"
+      ],
+      "title": "build_reportArguments",
+      "type": "object"
+    },
+    "outputSchema": null,
+    "icons": null,
+    "annotations": null,
+    "meta": null,
+    "execution": null
+  },
+  {
+    "name": "list_templates",
+    "title": null,
+    "description": "List the four bundled report templates without writing data.",
+    "inputSchema": {
+      "properties": {},
+      "title": "list_templatesArguments",
+      "type": "object"
+    },
+    "outputSchema": null,
+    "icons": null,
+    "annotations": null,
+    "meta": null,
+    "execution": null
+  },
+  {
+    "name": "lint_markdown",
+    "title": null,
+    "description": "Check local Markdown headings, links, images and table widths.",
+    "inputSchema": {
+      "properties": {
+        "path": {
+          "title": "Path",
+          "type": "string"
+        }
+      },
+      "required": [
+        "path"
+      ],
+      "title": "lint_markdownArguments",
+      "type": "object"
+    },
+    "outputSchema": null,
+    "icons": null,
+    "annotations": null,
+    "meta": null,
+    "execution": null
+  }
+]

@@ -1,0 +1,13 @@
+name: tech
+description: Compact technical reports with numbered sections and readable code
+body_size: 小四
+title_size: 二号
+heading_sizes: [三号, 小三, 四号, 小四, 小四, 小四]
+line_spacing: 1.25
+margin_top: 22
+margin_bottom: 22
+margin_left: 22
+margin_right: 22
+numbering: technical
+cover: true
+toc: true

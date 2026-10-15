@@ -1,0 +1,16 @@
+name: gongwen
+description: Formal Chinese typography and four-level official heading numbers
+font_body_cjk: Noto Serif CJK SC
+font_heading_cjk: Noto Sans CJK SC
+font_latin: Times New Roman
+body_size: 三号
+title_size: 小二
+heading_sizes: [三号, 三号, 三号, 三号, 小三, 小三]
+line_spacing: 1.5
+margin_top: 32
+margin_bottom: 30
+margin_left: 28
+margin_right: 26
+numbering: gongwen
+cover: true
+toc: true

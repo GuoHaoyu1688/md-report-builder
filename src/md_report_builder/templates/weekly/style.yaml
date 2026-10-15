@@ -1,0 +1,13 @@
+name: weekly
+description: Concise weekly updates with an inline title and no separate cover
+body_size: 小四
+title_size: 小二
+heading_sizes: [三号, 四号, 小四, 小四, 小四, 小四]
+line_spacing: 1.2
+margin_top: 20
+margin_bottom: 20
+margin_left: 22
+margin_right: 22
+numbering: none
+cover: false
+toc: false
